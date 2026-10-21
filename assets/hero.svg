@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Shashank K — Software developer, builder and problem solver</title>
+<desc id="desc">Dark navy technical banner with cyan and violet accents, terminal-inspired design and the phrase Build. Break. Learn. Ship.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#080D1C"/><stop offset="0.6" stop-color="#10132A"/><stop offset="1" stop-color="#0C1631"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#65E6F6"/><stop offset="0.6" stop-color="#A5A0FF"/><stop offset="1" stop-color="#E4A8FE"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#6145C7" stop-opacity=".34"/><stop offset="1" stop-color="#6145C7" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#D1D5FF" stroke-opacity=".06" stroke-width="1"/></pattern>
+<clipPath id="clip"><rect width="1200" height="360" rx="18"/></clipPath>
+<style>
+.sans{font-family:Arial,Helvetica,sans-serif}.mono{font-family:'Courier New',monospace}
+@keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}} .pulse{animation:pulse 2.6s ease-in-out infinite}
+@keyframes move{0%{transform:translateX(-60px);opacity:0}20%,80%{opacity:1}100%{transform:translateX(100px);opacity:0}}
+.scan{animation:move 6s ease-in-out infinite}
+</style>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="1200" height="360" fill="url(#bg)"/>
+<rect width="1200" height="360" fill="url(#grid)"/>
+<circle cx="1000" cy="160" r="300" fill="url(#halo)"/>
+<path d="M0 4H1200 M0 356H1200" stroke="url(#accent)" opacity=".75" stroke-width="3"/>
+<path d="M46 48h18M46 48v18M1154 312h-18M1154 312v-18" fill="none" stroke="#6BE1F3" stroke-opacity=".55" stroke-width="2"/>
+<text x="78" y="69" class="mono" font-size="15" fill="#9FB4CF" letter-spacing="2">// DEVELOPER PROFILE</text>
+<rect x="77" y="94" width="318" height="32" rx="16" fill="#18344C" stroke="#4BA7BA" stroke-opacity=".5"/>
+<circle cx="98" cy="110" r="5" fill="#48E4C9" class="pulse"/>
+<text x="115" y="115" class="mono" font-size="13" fill="#B8F8FF" letter-spacing="1">SOFTWARE  ·  AI/ML  ·  DSA</text>
+<text x="73" y="211" class="sans" font-size="73" font-weight="800" fill="#F1F5FE" letter-spacing="-3">SHASHANK K.</text>
+<rect x="78" y="228" width="486" height="3" rx="1.5" fill="url(#accent)" opacity=".8"/>
+<text x="79" y="266" class="sans" font-size="24" font-weight="500" fill="#C4D7F0">Build. Break. Learn. Ship.</text>
+<text x="80" y="303" class="mono" font-size="13.5" fill="#7F97B8">BUILDING USEFUL SOFTWARE, ONE PROBLEM AT A TIME.</text>
+<g transform="translate(700 52)">
+<rect width="438" height="256" rx="16" fill="#0A1020" stroke="#5B729A" stroke-opacity=".58" stroke-width="1.4"/>
+<path d="M0 45H438" stroke="#6680A4" stroke-opacity=".4"/>
+<circle cx="21" cy="23" r="5" fill="#FE7D8C"/><circle cx="40" cy="23" r="5" fill="#FBC472"/><circle cx="59" cy="23" r="5" fill="#67E3B6"/>
+<text x="219" y="28" text-anchor="middle" class="mono" fill="#8DA7C6" font-size="13">~/shashank/workspace</text>
+<text x="29" y="83" class="mono" font-size="17" fill="#5EEAD4">$ <tspan fill="#BDB5FF">whoami</tspan></text>
+<text x="29" y="110" class="mono" font-size="16" fill="#D5E5F9">developer <tspan fill="#708DAF">&amp;&amp;</tspan> builder</text>
+<text x="29" y="150" class="mono" font-size="17" fill="#5EEAD4">$ <tspan fill="#BDB5FF">cat mindset.ts</tspan></text>
+<text x="29" y="182" class="mono" font-size="15" fill="#B6C9E3">const mission = <tspan fill="#FFD98B">'solve real problems'</tspan>;</text>
+<text x="29" y="209" class="mono" font-size="15" fill="#B6C9E3">while (<tspan fill="#BDB5FF">curious</tspan>) <tspan fill="#5EEAD4">build()</tspan>;</text>
+<rect x="30" y="224" width="9" height="17" fill="#65E6F6" class="pulse"/>
+<path class="scan" d="M310 48V252" stroke="#64E7EF" stroke-opacity=".28" stroke-width="2"/>
+</g>
+<text x="1124" y="331" text-anchor="end" class="mono" font-size="11.5" fill="#7B91B2" letter-spacing="1.4">CODE / BUILD / REPEAT</text>
+</g>
+</svg>
